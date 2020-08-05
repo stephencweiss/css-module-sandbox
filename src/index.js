@@ -1,5 +1,5 @@
-import greetings from "./robot";
-import styles from "./app.css";
+import greetings from "app/robot";
+import styles from "style/app.css";
 
 let element = `
 <div class="${styles.element}">

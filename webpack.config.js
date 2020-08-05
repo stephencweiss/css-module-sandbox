@@ -7,6 +7,12 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
   },
+  resolve: {
+    alias: {
+      app: path.resolve(__dirname, "src"),
+      style: path.resolve(__dirname, "src/styles"),
+    },
+  },
   plugins: [
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output

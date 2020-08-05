@@ -1,0 +1,5 @@
+@value secondary: "./secondary.css"
+
+.element {
+  composes: center from secondary;
+}
