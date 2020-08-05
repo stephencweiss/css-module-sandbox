@@ -1,0 +1,22 @@
+{
+  "name": "css-module-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && open index.html"
+  },
+  "dependencies": {
+    "webpack": "^4.44.1"
+  },
+  "description": "A playground for css modules",
+  "author": "Stephen Weiss<stephencweiss@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
